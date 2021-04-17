@@ -12,3 +12,9 @@ class Hdmap:
 
     def print(self, x, y):
         self.matrix[x][y].print()
+
+    def get(self, x, y):
+        return self.matrix[x][y].landmark
+
+    def getnode(self, x, y):
+        return self.matrix[x][y]
